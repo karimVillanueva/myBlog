@@ -15,8 +15,7 @@ const ForestAtDusk: React.FC = () => {
         </p>
         <section>
             <p>
-            scripts: <q>con base en la siguiente descripción: "Un bosque al ocaso del sol, con una niebla que está en en fondo del espectador e iluminación nostalgica" Intenta crea un componente en nextjs que usa typescript que sea un div con estilos en tailwinds que se asemejen a lo descrito
-
+            scripts: con base en la siguiente descripción: <q>Un bosque al ocaso del sol, con una niebla que está en en fondo del espectador e iluminación nostalgica Intenta crea un componente en nextjs que usa typescript que sea un div con estilos en tailwinds que se asemejen a lo descrito
             </q>
             </p>
         </section>
