@@ -1,5 +1,5 @@
 'use client';
-import HeroContent from "./components/HeroContent";
+import HeroContent from "./components/HeroContent/HeroContent";
 import { ThemeProvider } from './context/ThemeContext';
 
 export default function Home() {

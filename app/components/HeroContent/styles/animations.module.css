@@ -36,3 +36,43 @@
   opacity: 0; /* Comienza invisible */
   animation: fadeIn 10s forwards; /* Aparece gradualmente en 1 segundo */
 }
+
+
+/* styles/globals.css */
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.zoom-in {
+  animation: zoomIn 0.5s ease-out forwards;
+  filter: blur(0);
+}
+
+.zoom-in-blur {
+  animation: zoomIn 0.5s ease-out forwards;
+  filter: blur(3px); /* Ajusta el valor para más o menos difuminado */
+}
+
+@keyframes textGlow {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+}
+
+.glow-text {
+  animation: textGlow 1.5s infinite alternate;
+}
