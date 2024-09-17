@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
 
   return (
     <div className={`p-2 ${footerClass} flex justify-center items-center ${styles.zoomInBlurOut}`}>
-      <Link href="#" passHref className={`flex items-center space-x-2 text-lg hover:underline ${styles.glowText}`}>
+      <Link href="/explanation" passHref className={`flex items-center space-x-2 text-lg hover:underline ${styles.glowText}`}>
           <span>Explanation</span>
           <AiOutlineQuestionCircle className="text-2xl" />
       </Link>
